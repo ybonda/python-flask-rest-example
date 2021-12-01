@@ -1,4 +1,5 @@
 {
-    "python.defaultInterpreterPath": "/Users/yurib/.virtualenvs/cynerio/bin/python",
+    "python.defaultInterpreterPath": "/Users/yurib/Library/Caches/pypoetry/virtualenvs/python-flask-rest-example-lfmo1LTh-py3.9/bin/python",
+    "python.formatting.provider": "autopep8",
     
 }

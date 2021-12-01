@@ -21,7 +21,7 @@ def add_book():
     '''Function to add new book to our database'''
     request_data = request.get_json()  # getting data from client
     Book.add_book(request_data["title"], request_data["year"],
-                    request_data["genre"])
+                  request_data["genre"])
     response = Response("book added", 201, mimetype='application/json')
     return response
 
